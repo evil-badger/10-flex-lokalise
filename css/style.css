@@ -1,6 +1,79 @@
-body {
-  color: red;
-  width: 100px;
+.maquette {
+  width: 1440px;
+  height: 12000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  height: 95px;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.promo {
+  height: 861px;
+  background-color: aqua;
+}
+
+.special {
+  height: 455px;
+  background-color: #FF9C7D;
+}
+
+.present {
+  height: 3463px;
+  background-color: blue;
+}
+
+.possibilities {
+  height: 1033px;
+  background-color: #FFF8E4;
+}
+
+.target-audience {
+  height: 1065px;
+}
+
+.ceo {
+  height: 468px;
+  background-color: #C9E8F2;
+}
+
+.grade {
+  height: 332px;
+  background-color: #DABC98;
+}
+
+.integrate {
+  height: 1099px;
+}
+
+.trial {
+  height: 603px;
+  background-color: #FF9C7D;
+}
+
+.additional {
+  height: 774px;
+  background-color: #EEEEEE;
+}
+
+.case {
+  width: 1290px;
+  height: 682px;
+  border-bottom: 1px solid #000000;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: green;
+}
+
+.footer {
+  height: 125px;
+  background-color: red;
 }
 
 /*# sourceMappingURL=style.css.map */
