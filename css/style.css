@@ -190,7 +190,7 @@
 }
 
 .present {
-  height: 3463px;
+  height: 3459px;
   background-color: #6565ff;
 }
 
@@ -259,6 +259,67 @@
   margin-top: 46px;
 }
 
+.qa {
+  display: flex;
+  padding-top: 250px;
+  margin-left: 75px;
+}
+
+.qa-text {
+  width: 632px;
+}
+
+.qa-text-header {
+  font-size: 50px;
+  line-height: 60px;
+  width: 493px;
+  margin-top: 151px;
+}
+
+.qa-text-article {
+  font-size: 20px;
+  line-height: 30px;
+  width: 493px;
+  margin-top: 38px;
+}
+
+.qa-text-footer {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 43px;
+}
+
+.develop {
+  display: flex;
+  padding-top: 250px;
+  margin-left: 75px;
+}
+
+.develop-text {
+  width: 517px;
+  margin-left: 138px;
+}
+
+.develop-text-header {
+  font-size: 50px;
+  line-height: 60px;
+  width: 330px;
+  margin-top: 130px;
+}
+
+.develop-text-article {
+  font-size: 20px;
+  line-height: 30px;
+  width: 520px;
+  margin-top: 33px;
+}
+
+.develop-text-footer {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 27px;
+}
+
 .possibilities {
   height: 1033px;
   background-color: #FFF8E4;
@@ -304,36 +365,6 @@
 .footer {
   height: 125px;
   background-color: red;
-}
-
-.qa {
-  display: flex;
-  padding-top: 250px;
-  margin-left: 75px;
-}
-
-.qa-text {
-  width: 632px;
-}
-
-.qa-text-header {
-  font-size: 50px;
-  line-height: 60px;
-  width: 493px;
-  margin-top: 151px;
-}
-
-.qa-text-article {
-  font-size: 20px;
-  line-height: 30px;
-  width: 493px;
-  margin-top: 38px;
-}
-
-.qa-text-footer {
-  font-size: 20px;
-  line-height: 30px;
-  margin-top: 43px;
 }
 
 /*# sourceMappingURL=style.css.map */
