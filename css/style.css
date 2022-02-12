@@ -325,6 +325,52 @@
   background-color: #FFF8E4;
 }
 
+.possibilities-header {
+  width: 890px;
+  font-size: 50px;
+  line-height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 120px;
+  text-align: center;
+}
+
+.possibilities-row {
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 58px;
+  margin-bottom: 57px;
+}
+
+.possibilities-card {
+  width: 330px;
+}
+
+.possibilities-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.possibilities-card-header {
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  margin: 26px 0 20px 0;
+}
+
+.possibilities-card-article {
+  width: 303px;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .target-audience {
   height: 1065px;
 }
