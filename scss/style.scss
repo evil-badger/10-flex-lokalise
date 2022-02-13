@@ -480,7 +480,14 @@
 .grade{
     height: 332px;
     background-color: #DABC98;
+    display:flex;
+    align-items: flex-start;
 }
+.pie{
+    display:block;
+    margin: 89px 67px 0 54px;
+}
+
 
 .integrate{
     height: 1099px;
@@ -605,13 +612,10 @@
     background-color: green;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start
+    align-items: flex-start;
 }
 
-.footer{
-    height: 125px;
-    background-color: red;
-}
+
 
 .case-studies{
     width: 300px;
@@ -638,7 +642,7 @@
 }
 
 .case-read-link{
-    display: block;
+    display: inline-block;
     margin-top: 15px;
     font-style: normal;
     font-weight: 600;
@@ -646,6 +650,10 @@
     line-height: 30px;
     color: #000000;
     text-decoration: none;
+}
+
+.case-read-link:hover{
+    background-color: rgb(245, 88, 60);
 }
 
 .case-img{
@@ -656,21 +664,32 @@
     margin-top: 31px;
 }
 
+.card-header{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.card-nav{
+    margin-top: 21px;
+}
 .card-nav-list{
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
+.card-nav-list-item{
+    margin-bottom: 15px;
+}
 .card-nav-list-item-link{
     text-decoration: none;
     color: #000000;
-    padding-right: 57px;
-}
-
-.card-nav-list-item-link-last{
-    text-decoration: none;
-    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 15px;
 }
 
 .card-nav-list-item:hover .card-nav-list-item-link{
@@ -681,3 +700,45 @@
     color: rgb(245, 88, 60);
 }
 
+.footer{
+    height: 125px;
+    background-color: red;
+    display: flex;
+}
+
+.footer-article{
+    width: 270px;
+}
+
+.copyright{
+    margin-left: auto;
+    margin-top: 48px;
+    margin-right: 150px;
+}
+
+.logo-link-footer{
+    margin-left:75px;
+    margin-top:48px;
+}
+
+.footer-article{
+    margin-left: 14px;
+    margin-top: 48px;
+}
+
+
+
+.grade-article{
+    display:block;
+    width: 461px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    margin:116px 125px 0 0;
+}
+
+.grade-rate{
+    border-left:#000000 1px solid;
+    margin-top:79px;
+}
