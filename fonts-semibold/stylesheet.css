@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('subset-GraphikLCG-Semibold.eot');
+    src: url('subset-GraphikLCG-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('subset-GraphikLCG-Semibold.woff2') format('woff2'),
+        url('subset-GraphikLCG-Semibold.woff') format('woff'),
+        url('subset-GraphikLCG-Semibold.ttf') format('truetype'),
+        url('subset-GraphikLCG-Semibold.svg#GraphikLCG-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
