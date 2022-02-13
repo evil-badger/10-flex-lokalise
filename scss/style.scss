@@ -2,6 +2,136 @@
     box-sizing: border-box;
 }
 
+body{
+    margin: 0;
+    font-family: 'Graphik LCG';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.size12-15{
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.size15-15{
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.size-15-20{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.size15-25{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.size16-45-600{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+}
+
+.size16-60{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+}
+
+.size16-60-600{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+}
+
+.size17-60-600{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+}
+
+.size18-25{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.size20-25-600{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.size20-30{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.size20-30-600{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.size25-30{
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.size25-35{
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.size25-35-600{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.size30-40{
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.size30-40-600{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.size35-50-600{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.size40-50-600{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.size50-60-600{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.size65-70-600{
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
+}
+
+.size65-75-600{
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+}
+
 .maquette{
     width: 1440px;
     margin-left: auto;
@@ -56,7 +186,9 @@
     text-decoration: none;
     padding: 13px 0 13px 0;
     margin-left: auto;
-    margin-top:25px
+    margin-top:25px;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .header-button-login:hover{
@@ -72,17 +204,12 @@
     padding: 13px 0 13px 0;
     margin: 25px 51px 25px 10px;
     background-color: #FF6336;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .header-button-trial:hover{
     background-color: rgb(198, 209, 95);
-}
-
-.header-h2{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 60px;
 }
 
 .promo{
@@ -94,28 +221,23 @@
     width: 534px;
 }
 
-.promo-text-header{
-    font-size: 65px;
-    line-height: 70px;
-}
-
 .promo-text-article{
     width: 471px;
-    font-size: 25px;
-    line-height: 35px;
     margin-top: 51px;
 }
 
 .promo-button-trial{
-    border: 1px solid #FFFFFF;
     width: 160px;
     display: inline-block;
     background-color: #FF6336;
     text-align: center;
     color: #FFFFFF;
     text-decoration: none;
+    border: 1px solid #FFFFFF;
     padding: 22px 0 22px 0;
     margin: 55px 10px 0 0;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .promo-button-trial:hover{
@@ -131,6 +253,9 @@
     padding: 22px 0 22px 0;
     margin: 0px 0px 0 0px;
     width: 160px;
+    font-weight: 600;
+    font-size: 16px;
+    
 }
 
 .promo-button-demo:hover{
@@ -153,8 +278,6 @@
 }
 
 .special-header{
-    font-size: 50px;
-    line-height: 60px;
     text-align: center;
     color: #000000;
     width: 634px;
@@ -187,16 +310,11 @@
 }
 
 .metric-text-header{
-    font-size: 50px;
-    line-height: 60px;
     width: 493px;
     margin-top: 151px;
-
 }
 
 .metric-text-article{
-    font-size: 20px;
-    line-height: 30px;
     width: 493px;
     margin-top: 30px;
 }
@@ -217,16 +335,11 @@
 }
 
 .applications-text-header{
-    font-size: 50px;
-    line-height: 60px;
     width: 379px;
     margin-top: 151px;
-
 }
 
 .applications-text-article{
-    font-size: 20px;
-    line-height: 30px;
     width: 493px;
     margin-top: 46px;
 }
@@ -242,16 +355,11 @@
 }
 
 .qa-text-header{
-    font-size: 50px;
-    line-height: 60px;
     width: 493px;
     margin-top: 151px;
-
 }
 
 .qa-text-article{
-    font-size: 20px;
-    line-height: 30px;
     width: 493px;
     margin-top: 38px;
 }
@@ -268,27 +376,22 @@
 }
 
 .develop-text-header{
-    font-size: 50px;
-    line-height: 60px;
     width: 330px;
     margin-top: 130px;
-
 }
 
 .develop-text-article{
-    font-size: 20px;
-    line-height: 30px;
     width: 520px;
     margin-top: 33px;
 }
 
 .start-link{
-    display: block;
+    display: inline-block;
+    color: #000000;
+    margin-top: 35px;
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
-    color: #000000;
-    margin-top: 35px;
 }
 
 .start-link:hover{
@@ -302,8 +405,6 @@
 
 .possibilities-header{
     width: 890px;
-    font-size: 50px;
-    line-height: 60px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 120px;
@@ -331,19 +432,20 @@
 }
 
 .possibilities-card-header{
-    font-size: 25px;
-    line-height: 35px;
     text-align: center;
     margin:26px 0 20px 0;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
 }
 
 .possibilities-card-article{
     width: 303px;
-    font-size: 18px;
-    line-height: 25px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    font-size: 18px;
+    line-height: 25px;
 }
 
 .target-audience{
@@ -351,13 +453,8 @@
 }
 
 .target-audience-header{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 60px;
     padding-top: 154px;
     margin-left: 75px;
-
 }
 
 .target-row{
@@ -372,29 +469,24 @@
 }
 
 .target-card-header{
-    font-style: normal;
+    margin-top: 49px;
     font-weight: 600;
     font-size: 30px;
     line-height: 40px;
-    margin-top: 49px;
 }
 
 .target-card-article{
-    font-style: normal;
-    font-weight: normal;
+    margin-top: 34px;
     font-size: 20px;
     line-height: 30px;
-    margin-top: 34px;
 }
 
 .target-learn-link{
     display:inline-block;
     margin-top: 25px;
-    font-style: normal;
-    font-weight: normal;
+    color: #000000;
     font-size: 20px;
     line-height: 30px;
-    color: #000000;
 }
 
 .target-learn-link:hover{
@@ -413,24 +505,17 @@
     margin-left:auto;
     margin-right: auto;
     justify-content: space-between;
-
 }
 
 .ceo-text-article{
     margin-top: 15px;
     width: 895px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 40px;
 }
 
 .ceo-sign{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
-    line-height: 25px;
     margin-top:23px;
 }
 
@@ -453,10 +538,6 @@
 .grade-article{
     display:block;
     width: 461px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 50px;
     margin:116px 125px 0 0;
 }
 
@@ -471,10 +552,6 @@
 
 .integrate-header{
     width: 791px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 65px;
-    line-height: 75px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -482,10 +559,6 @@
 }
 
 .integrate-article{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 30px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -506,10 +579,6 @@
     text-align: center;
     color: #FFFFFF;
     text-decoration: none;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 60px;
     margin-top: 32px;
     margin-left:auto;
     margin-right:auto;
@@ -526,10 +595,6 @@
 
 .trial-header{
     width: 784px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 65px;
-    line-height: 75px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -537,10 +602,6 @@
 }
 
 .trial-article{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 30px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -555,10 +616,6 @@
     text-align: center;
     color: #FFFFFF;
     text-decoration: none;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 17px;
-    line-height: 60px;
     margin-top: 54px;
     margin-left:auto;
     margin-right:auto;
@@ -592,13 +649,6 @@
     width: 170px;
 }
 
-.case-header{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 50px;
-}
-
 .case-img{
     margin-top: 28px;
 }
@@ -609,19 +659,11 @@
 
 .case-article{
     margin-top:11px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
 }
 
 .case-read-link{
     display: inline-block;
     margin-top: 15px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
     color: #000000;
     text-decoration: none;
 }
@@ -631,7 +673,6 @@
 }
 
 .card-header{
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 25px;
@@ -649,15 +690,13 @@
 
 .card-nav-list-item{
     margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 15px;
 }
 
 .card-nav-list-item-link{
     text-decoration: none;
     color: #000000;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 15px;
 }
 
 .card-nav-list-item:hover .card-nav-list-item-link{
